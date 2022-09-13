@@ -1,0 +1,50 @@
+[
+  {
+    "model": "reptileglossaryapi.reptilediet_reptile",
+    "pk": 1,
+    "fields": {
+      "reptilediet_id": 2,
+      "reptile_id": 10
+    }
+  },
+  {
+    "model": "reptileglossaryapi.reptilediet_reptile",
+    "pk": 2,
+    "fields": {
+      "reptilediet_id": 3,
+      "reptile_id": 1
+    }
+  },
+  {
+    "model": "reptileglossaryapi.reptilediet_reptile",
+    "pk": 3,
+    "fields": {
+      "reptilediet_id": 1,
+      "reptile_id": 3
+    }
+  },
+  {
+    "model": "reptileglossaryapi.reptilediet_reptile",
+    "pk": 4,
+    "fields": {
+      "reptilediet_id": 1,
+      "reptile_id": 5
+    }
+  },
+  {
+    "model": "reptileglossaryapi.reptilediet_reptile",
+    "pk": 5,
+    "fields": {
+      "reptilediet_id": 2,
+      "reptile_id": 9
+    }
+  },
+  {
+    "model": "reptileglossaryapi.reptilediet_reptile",
+    "pk": 6,
+    "fields": {
+      "reptilediet_id": 3,
+      "reptile_id": 2
+    }
+  }
+]

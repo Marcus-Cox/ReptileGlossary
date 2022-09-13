@@ -1,0 +1,79 @@
+[
+    {
+        "model": "reptileglossaryapi.morph",
+        "pk": 1,
+        "fields": {
+            "morph": "Spider"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.morph",
+        "pk": 2,
+        "fields": {
+            "morph": "Piebald"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.morph",
+        "pk": 3,
+        "fields": {
+            "morph": "Albino"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.morph",
+        "pk": 4,
+        "fields": {
+            "morph": "Leucistic"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.morph",
+        "pk": 5,
+        "fields": {
+            "morph": "Leatherback"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.morph",
+        "pk": 6,
+        "fields": {
+            "morph": "Microscale"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.morph",
+        "pk": 7,
+        "fields": {
+            "morph": "Harlequin"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.morph",
+        "pk": 8,
+        "fields": {
+            "morph": "Pinstripe"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.morph",
+        "pk": 9,
+        "fields": {
+            "morph": "Flame"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.morph",
+        "pk": 10,
+        "fields": {
+            "morph": "Scaleless"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.morph",
+        "pk": 11,
+        "fields": {
+            "morph": "Enigma"
+        }
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+      "model": "reptileglossaryapi.specialneedsreptile_species",
+      "pk": 1,
+      "fields": {
+        "specialneedsreptile_id": 1,
+        "species_id": 1
+      }
+    },
+    {
+      "model": "reptileglossaryapi.specialneedsreptile_species",
+      "pk": 2,
+      "fields": {
+        "specialneedsreptile_id": 2,
+        "species_id": 1
+      }
+    },
+    {
+      "model": "reptileglossaryapi.specialneedsreptile_species",
+      "pk": 4,
+      "fields": {
+        "specialneedsreptile_id": 3,
+        "species_id": 1
+      }
+    },
+  
+    {
+      "model": "reptileglossaryapi.specialneedsreptile_species",
+      "pk": 4,
+      "fields": {
+        "specialneedsreptile_id": 4,
+        "species_id": 4
+      }
+    }
+  ]
+  

@@ -1,0 +1,23 @@
+[
+  {
+    "model": "reptileglossaryapi.diet",
+    "pk": 1,
+    "fields": {
+      "diet": "carnivore"
+    }
+  },
+  {
+    "model": "reptileglossaryapi.diet",
+    "pk": 2,
+    "fields": {
+      "diet": "herbivore"
+    }
+  },
+  {
+    "model": "reptileglossaryapi.diet",
+    "pk": 3,
+    "fields": {
+      "diet": "omnivore"
+    }
+  }
+]

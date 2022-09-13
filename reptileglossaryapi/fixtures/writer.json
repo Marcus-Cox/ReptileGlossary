@@ -1,0 +1,11 @@
+[
+    {
+        "model": "reptileglossaryapi.writer",
+        "pk": 1,
+        "fields": {
+            "bio": "Me",
+            "date_joined": "2022-08-27",
+            "user": 1
+        }
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+      "model": "reptileglossaryapi.reptile_genus",
+      "pk": 1,
+      "fields": {
+        "reptile_id": 1,
+        "genus_id": 1
+      }
+    },
+    {
+      "model": "reptileglossaryapi.reptile_genus",
+      "pk": 2,
+      "fields": {
+        "reptile_id": 2,
+        "genus_id": 1
+      }
+    },
+    {
+      "model": "reptileglossaryapi.reptile_genus",
+      "pk": 3,
+      "fields": {
+        "reptile_id": 3,
+        "genus_id": 1
+      }
+    },
+    {
+      "model": "reptileglossaryapi.reptile_genus",
+      "pk": 4,
+      "fields": {
+        "reptile_id": 4,
+        "genus_id": 1
+      }
+    },
+    {
+      "model": "reptileglossaryapi.reptile_genus",
+      "pk": 5,
+      "fields": {
+        "reptile_id": 5,
+        "genus_id": 2
+      }
+    },
+    {
+      "model": "reptileglossaryapi.reptile_genus",
+      "pk": 6,
+      "fields": {
+        "reptile_id": 6,
+        "genus_id": 2
+      }
+    },
+    {
+      "model": "reptileglossaryapi.reptile_genus",
+      "pk": 7,
+      "fields": {
+        "reptile_id": 7,
+        "genus_id": 3
+      }
+    },
+    {
+      "model": "reptileglossaryapi.reptile_genus",
+      "pk": 8,
+      "fields": {
+        "reptile_id": 8,
+        "genus_id": 3
+      }
+    },
+    {
+      "model": "reptileglossaryapi.reptile_genus",
+      "pk": 9,
+      "fields": {
+        "reptile_id": 9,
+        "genus_id": 4
+      }
+    },
+    {
+      "model": "reptileglossaryapi.reptile_genus",
+      "pk": 10,
+      "fields": {
+        "reptile_id": 10,
+        "genus_id": 4
+      }
+    }
+  ]
+  

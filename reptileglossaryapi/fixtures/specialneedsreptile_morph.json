@@ -1,0 +1,35 @@
+[
+  {
+    "model": "reptileglossaryapi.specialneedsreptile_morph",
+    "pk": 1,
+    "fields": {
+      "specialneedsreptile_id": 1,
+      "morph": 10
+    }
+  },
+  {
+    "model": "reptileglossaryapi.specialneedsreptile_morph",
+    "pk": 2,
+    "fields": {
+      "specialneedsreptile_id": 1,
+      "morph": 3
+    }
+  },
+  {
+    "model": "reptileglossaryapi.specialneedsreptile_morph",
+    "pk": 4,
+    "fields": {
+      "specialneedsreptile_id": 3,
+      "morph_id": 1
+    }
+  },
+
+  {
+    "model": "reptileglossaryapi.specialneedsreptile_morph",
+    "pk": 4,
+    "fields": {
+      "specialneedsreptile_id": 4,
+      "morph_id": 11
+    }
+  }
+]

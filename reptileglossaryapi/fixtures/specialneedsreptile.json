@@ -1,0 +1,31 @@
+[
+    {
+      "model": "reptileglossaryapi.specialneedsreptile",
+      "pk": 1,
+      "fields": {
+        "name": "Ball Pythons-Scaleless"
+      }
+    },
+    {
+      "model": "reptileglossaryapi.specialneedsreptile",
+      "pk": 2,
+      "fields": {
+        "name": "Ball Pythons-Albino"
+      }
+    },
+    {
+      "model": "reptileglossaryapi.specialneedsreptile",
+      "pk": 3,
+      "fields": {
+        "name": "Ball Pythons-Spider"
+      }
+    },
+    {
+        "model": "reptileglossaryapi.specialneedsreptile",
+        "pk": 4,
+        "fields": {
+          "name": "Gecko-Enigma"
+        }
+      }
+  ]
+  

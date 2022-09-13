@@ -1,0 +1,72 @@
+[
+  {
+    "model": "reptileglossaryapi.reptile",
+    "pk": 1,
+    "fields": {
+      "name": "Lizard-Bearded Dragon"
+    }
+  },
+  {
+    "model": "reptileglossaryapi.reptile",
+    "pk": 2,
+    "fields": {
+      "name": "Lizard-Gecko"
+    }
+  },
+  {
+    "model": "reptileglossaryapi.reptile",
+    "pk": 3,
+    "fields": {
+      "name": "Lizard-Iguana"
+    }
+  },
+  {
+    "model": "reptileglossaryapi.reptile",
+    "pk": 4,
+    "fields": {
+      "name": "Lizard-Blue Tongued Skink"
+    }
+  },
+  {
+    "model": "reptileglossaryapi.reptile",
+    "pk": 5,
+    "fields": {
+      "name": "Snake-Ball Pythons"
+    }
+  },
+  {
+    "model": "reptileglossaryapi.reptile",
+    "pk": 6,
+    "fields": {
+      "name": "Snake-Boa"
+    }
+  },
+  {
+    "model": "reptileglossaryapi.reptile",
+    "pk": 7,
+    "fields": {
+      "name": "Amphibian-Axolotls"
+    }
+  },
+  {
+    "model": "reptileglossaryapi.reptile",
+    "pk": 8,
+    "fields": {
+      "name": "Amphibian-Frogs"
+    }
+  },
+  {
+    "model": "reptileglossaryapi.reptile",
+    "pk": 9,
+    "fields": {
+      "name": "Tortoise-Hermann"
+    }
+  },
+  {
+    "model": "reptileglossaryapi.reptile",
+    "pk": 10,
+    "fields": {
+      "name": "Tortoise-Sulcata"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "model": "reptileglossaryapi.genus",
+        "pk": 1,
+        "fields": {
+            "genus": "Lizard"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.genus",
+        "pk": 2,
+        "fields": {
+            "genus": "Snake"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.genus",
+        "pk": 3,
+        "fields": {
+            "genus": "Amphibian"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.genus",
+        "pk": 4,
+        "fields": {
+            "genus": "Tortoise"
+        }
+    }
+]

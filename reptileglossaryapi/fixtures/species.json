@@ -1,0 +1,73 @@
+[
+    {
+        "model": "reptileglossaryapi.species",
+        "pk": 1,
+        "fields": {
+            "species": "Ball Pythons"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.species",
+        "pk": 2,
+        "fields": {
+            "species": "Boa"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.species",
+        "pk": 3,
+        "fields": {
+            "species": "Bearded Dragon"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.species",
+        "pk": 4,
+        "fields": {
+            "species": "Gecko"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.species",
+        "pk": 5,
+        "fields": {
+            "species": "Iguana"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.species",
+        "pk": 6,
+        "fields": {
+            "species": "Blue Tongued Skink"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.species",
+        "pk": 7,
+        "fields": {
+            "species": "Hermann"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.species",
+        "pk": 8,
+        "fields": {
+            "species": "Sulcata"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.species",
+        "pk": 9,
+        "fields": {
+            "species": "Axolotls"
+        }
+    },
+    {
+        "model": "reptileglossaryapi.species",
+        "pk": 10,
+        "fields": {
+            "species": "Frogs"
+        }
+    }
+    
+]

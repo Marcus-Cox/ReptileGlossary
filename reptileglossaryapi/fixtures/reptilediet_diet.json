@@ -1,0 +1,27 @@
+[
+    {
+      "model": "reptileglossaryapi.reptilediet_diet",
+      "pk": 1,
+      "fields": {
+        "reptilediet_id": 3,
+        "diet_id": 1
+      }
+    },
+    {
+      "model": "reptileglossaryapi.reptilediet_diet",
+      "pk": 2,
+      "fields": {
+        "reptilediet_id": 1,
+        "diet_id": 2
+      }
+    },
+    {
+      "model": "reptileglossaryapi.reptilediet_diet",
+      "pk": 3,
+      "fields": {
+        "reptilediet_id": 2,
+        "diet_id": 3
+      }
+    }
+  ]
+  

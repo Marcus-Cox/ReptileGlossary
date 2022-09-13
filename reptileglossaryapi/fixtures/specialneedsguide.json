@@ -1,0 +1,14 @@
+[
+    {
+        "model": "reptileglossaryapi.specialneedsguide",
+        "pk": 1,
+        "fields": {
+            "title": "Enigma Morph Information",
+            "description": "A Guide for Enigma Morph Geckos",
+            "content": "Enigma morphs in leopard geckos have neurological issues. It's recommended to hand feed them.",
+            "publishing_date": "2022-09-03",
+            "specialneedsreptile_id":1,
+            "writer_id": 1
+        }
+    }
+]

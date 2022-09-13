@@ -1,0 +1,14 @@
+[
+    {
+        "model": "reptileglossaryapi.dietguide",
+        "pk": 1,
+        "fields": {
+            "title": "herbivore Food maintenance",
+            "description": "Best Practices of herbivore diets",
+            "content": "Make sure to keep food refregerated",
+            "publishing_date": "2022-09-03",
+            "reptilediet_id":1,
+            "writer_id": 1
+        }
+    }
+]
