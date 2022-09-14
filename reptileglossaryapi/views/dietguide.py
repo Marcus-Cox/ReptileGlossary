@@ -36,6 +36,7 @@ class DietGuideView(ViewSet):
             writer=writer,
             reptilediet=reptilediet,
             title=request.data["title"],
+            image=request.data["image"],
             description=request.data["description"],
             content=request.data["content"],
             publishing_date=request.data["publishing_date"]
@@ -48,6 +49,7 @@ class DietGuideView(ViewSet):
         editing_dietguide = DietGuide.objects.get(pk=pk)
 
         editing_dietguide.title = request.data["title"]
+        editing_dietguide.image = request.data["image"]
         editing_dietguide.description = request.data["description"]
         editing_dietguide.content = request.data["content"]
         editing_dietguide.save()
@@ -74,6 +76,7 @@ class DietGuideSerializer(serializers.ModelSerializer):
             'writer',
             'reptilediet',
             'title',
+            'image',
             'description',
             'content',
             'publishing_date',

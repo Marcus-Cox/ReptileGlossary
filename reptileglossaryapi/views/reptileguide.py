@@ -36,6 +36,7 @@ class ReptileGuideView(ViewSet):
             writer=writer,
             reptile =reptile,
             title=request.data["title"],
+            image=request.data["image"],
             description=request.data["description"],
             content=request.data["content"],
             publishing_date=request.data["publishing_date"]
@@ -48,6 +49,7 @@ class ReptileGuideView(ViewSet):
         editing_reptileguide = ReptileGuide.objects.get(pk=pk)
 
         editing_reptileguide.title = request.data["title"]
+        editing_reptileguide.image = request.data["image"]
         editing_reptileguide.description = request.data["description"]
         editing_reptileguide.content = request.data["content"]
         editing_reptileguide.save()
@@ -74,6 +76,7 @@ class ReptileGuideSerializer(serializers.ModelSerializer):
             'writer',
             'reptile',
             'title',
+            'image',
             'description',
             'content',
             'publishing_date',
