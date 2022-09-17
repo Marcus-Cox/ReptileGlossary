@@ -38,9 +38,8 @@ class ReptileGuideView(ViewSet):
             title=request.data["title"],
             image=request.data["image"],
             description=request.data["description"],
-            content=request.data["content"],
-            publishing_date=request.data["publishing_date"]
-        )
+            content=request.data["content"]
+            )
         serializer = ReptileGuideSerializer(new_reptileguide)
         return Response(serializer.data, status=status.HTTP_201_CREATED)
 
@@ -81,6 +80,5 @@ class ReptileGuideSerializer(serializers.ModelSerializer):
             'title',
             'image',
             'description',
-            'content',
-            'publishing_date',
+            'content'
             )
