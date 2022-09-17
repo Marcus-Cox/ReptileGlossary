@@ -17,19 +17,28 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from django.contrib import admin
-from django.urls import path
 from rest_framework import routers
+from reptileglossaryapi.views.reptile import ReptileView
+from reptileglossaryapi.views.reptilediet import ReptileDietView
+from reptileglossaryapi.views.specialneedsreptile import SpecialNeedsReptileView
 from reptileglossaryapi.views.reptileguide import ReptileGuideView
 from reptileglossaryapi.views.dietguide import DietGuideView
 from reptileglossaryapi.views.specialneedsguide import SpecialNeedsGuideView
+from reptileglossaryapi.views import register_user, login_user
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'reptileguides', ReptileGuideView, 'reptileguide')
 router.register(r'dietguides', DietGuideView, 'dietguide')
 router.register(r'specialneedsguides', SpecialNeedsGuideView, 'specialneedsguide')
+router.register(r'reptiles' ,ReptileView, "reptile")
+router.register(r'reptilediets' ,ReptileDietView, "reptilediet")
+router.register(r'specialneedsreptiles' ,SpecialNeedsReptileView, "specialneedsreptile")
+
 
 
 urlpatterns = [
+    path('register', register_user),
+    path('login', login_user),
     path('admin/', admin.site.urls),
     path('',include(router.urls)),
 ]
