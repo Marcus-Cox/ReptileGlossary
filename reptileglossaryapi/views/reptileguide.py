@@ -46,10 +46,13 @@ class ReptileGuideView(ViewSet):
 
     def update(self, request, pk):
         """ Handles a PUT request for a Guide item """
+        reptile = Reptile.objects.get(pk=request.data["reptile"])
+
         editing_reptileguide = ReptileGuide.objects.get(pk=pk)
 
         editing_reptileguide.title = request.data["title"]
         editing_reptileguide.image = request.data["image"]
+        editing_reptileguide.reptile = reptile
         editing_reptileguide.description = request.data["description"]
         editing_reptileguide.content = request.data["content"]
         editing_reptileguide.save()
@@ -59,8 +62,8 @@ class ReptileGuideView(ViewSet):
     def destroy(self, request, pk):
         """ Handles a DELETE request for a Guide item """
         try:
-            guide = ReptileGuide.objects.get(pk=pk)
-            guide.delete()
+            reptileguide = ReptileGuide.objects.get(pk=pk)
+            reptileguide.delete()
         except ReptileGuide.DoesNotExist as e:
             return Response(None, status=status.HTTP_404_NOT_FOUND)
 
